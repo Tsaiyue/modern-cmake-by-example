@@ -8,7 +8,7 @@ all: answer
 objects := main.o answer.o
 
 answer: $(objects)
-	$(CXX) -o $@ $(objects)
+	$(CXX) -o aha $(objects)
 
 #
 # Make 可以自动推断 .o 目标文件需要依赖同名的 .cpp 文件，
